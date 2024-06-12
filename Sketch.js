@@ -4,7 +4,7 @@ let yBolinha = 200;
 let diametro = 20;
 let raio = diametro / 2;
 
-//variáveis do oponente
+//variáveis do cavinho
 let xRaqueteOponente = 585;
 let yRaqueteOponente = 150;
 
