@@ -4,7 +4,7 @@ let yBolinha = 200;
 let diametro = 20;
 let raio = diametro / 2;
 
-//variáveis do cavinho
+//variáveis do chavinho
 let xRaqueteOponente = 585;
 let yRaqueteOponente = 150;
 
@@ -41,7 +41,7 @@ function draw() {
     mostraRaquete(xRaqueteOponente, yRaqueteOponente);
     movimentaRaqueteOponente();
     incluiPlacar() 
-    marcaPonto();
+    aichavinho();
 }
 function mostraBolinha() {
   circle(xBolinha, yBolinha, diametro);
@@ -111,7 +111,7 @@ function incluiPlacar(){
 }
 
 
-function marcaPonto() {
+function aichavinho() {
   if (xBolinha > 580) {
     meusPontos += 1;
   }
